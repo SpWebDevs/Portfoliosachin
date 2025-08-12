@@ -1131,8 +1131,78 @@ In the fast-paced digital world, having a strong online presence is crucial for 
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
+<section class="contact-form" style="max-width:800px;margin:auto;padding:20px;color:#fff;font-family:Arial,sans-serif;">
 
-       <section class="contact-form">
+  <h3 class="h3 form-title" style="margin-bottom:20px;">Contact Form</h3>
+
+  <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+
+    <input type="hidden" name="access_key" value="0a421c50-2e1f-440e-aa6a-9010a2c63e50">
+
+    <div class="input-wrapper" style="display:flex;gap:15px;margin-bottom:15px;">
+      <input type="text" name="fullname" placeholder="Full name" required data-form-input
+        style="background:transparent;border:1px solid rgba(255,255,255,0.4);padding:12px;border-radius:6px;color:#fff;width:100%;font-size:14px;outline:none;">
+      <input type="email" name="email" placeholder="Email address" required data-form-input
+        style="background:transparent;border:1px solid rgba(255,255,255,0.4);padding:12px;border-radius:6px;color:#fff;width:100%;font-size:14px;outline:none;">
+    </div>
+
+    <div class="input-wrapper" style="display:flex;gap:15px;margin-bottom:15px;">
+      <input type="tel" name="phone" placeholder="Phone number" pattern="[0-9]{7,15}" required data-form-input
+        style="background:transparent;border:1px solid rgba(255,255,255,0.4);padding:12px;border-radius:6px;color:#fff;width:100%;font-size:14px;outline:none;">
+      <input type="tel" name="whatsapp" placeholder="WhatsApp number" pattern="[0-9]{7,15}" required data-form-input
+        style="background:transparent;border:1px solid rgba(255,255,255,0.4);padding:12px;border-radius:6px;color:#fff;width:100%;font-size:14px;outline:none;">
+    </div>
+
+    <div class="input-wrapper" style="display:flex;gap:15px;margin-bottom:15px;">
+      <input type="text" name="address" placeholder="Your address" required data-form-input
+        style="background:transparent;border:1px solid rgba(255,255,255,0.4);padding:12px;border-radius:6px;color:#fff;width:100%;font-size:14px;outline:none;">
+      <select name="service" required data-form-input
+        style="background:transparent;border:1px solid rgba(255,255,255,0.4);padding:12px;border-radius:6px;color:#fff;width:100%;font-size:14px;outline:none;">
+        <option value="">Select a service</option>
+        <option value="Web Development">Web Development</option>
+        <option value="App Development">App Development</option>
+        <option value="SEO Services">SEO Services</option>
+      </select>
+    </div>
+
+    <div class="input-wrapper" style="display:flex;gap:15px;margin-bottom:15px;">
+      <select name="budget" required data-form-input
+        style="background:transparent;border:1px solid rgba(255,255,255,0.4);padding:12px;border-radius:6px;color:#fff;width:100%;font-size:14px;outline:none;">
+        <option value="">Select your budget</option>
+        <option value="Below $500">Below $500</option>
+        <option value="$500 - $1000">$500 - $1000</option>
+        <option value="Above $1000">Above $1000</option>
+      </select>
+    </div>
+
+    <!-- Inline Gender Radio Buttons -->
+    <div class="gender-wrapper" style="display:flex;align-items:center;gap:15px;margin-bottom:15px;">
+      <label style="color:#fff;">Gender:</label>
+      <label style="display:flex;align-items:center;gap:5px;color:#fff;">
+        <input type="radio" name="gender" value="Male" required style="accent-color:#f4c542;"> Male
+      </label>
+      <label style="display:flex;align-items:center;gap:5px;color:#fff;">
+        <input type="radio" name="gender" value="Female" style="accent-color:#f4c542;"> Female
+      </label>
+      <label style="display:flex;align-items:center;gap:5px;color:#fff;">
+        <input type="radio" name="gender" value="Other" style="accent-color:#f4c542;"> Other
+      </label>
+    </div>
+
+    <textarea name="message" placeholder="Your message" required data-form-input
+      style="background:transparent;border:1px solid rgba(255,255,255,0.4);padding:12px;border-radius:6px;color:#fff;width:100%;font-size:14px;outline:none;min-height:120px;resize:vertical;margin-bottom:15px;"></textarea>
+
+    <button type="submit" data-form-btn
+      style="background:#f4c542;border:none;padding:12px 20px;border-radius:8px;font-weight:bold;cursor:pointer;display:inline-flex;align-items:center;gap:8px;color:#121212;">
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+
+</section>
+
+       <!--<section class="contact-form">
 
   <h3 class="h3 form-title">Contact Form</h3>
 
@@ -1177,7 +1247,7 @@ In the fast-paced digital world, having a strong online presence is crucial for 
 
   </form>
 
-</section>
+</section> -->
 
 
       </article>
@@ -1206,3 +1276,4 @@ In the fast-paced digital world, having a strong online presence is crucial for 
 
 
 </html>
+
