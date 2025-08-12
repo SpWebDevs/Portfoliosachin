@@ -1132,28 +1132,53 @@ In the fast-paced digital world, having a strong online presence is crucial for 
           </figure>
         </section>
 
-        <section class="contact-form">
+       <section class="contact-form">
 
-          <h3 class="h3 form-title">Contact Form</h3>
+  <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="https://formsubmit.co/spshimpi96@gmail.com"method="POST" class="form" data-form>
+  <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+    <div class="input-wrapper">
+      <input type="hidden" name="access_key" value="0a421c50-2e1f-440e-aa6a-9010a2c63e50">
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+    </div>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+    <div class="input-wrapper">
+      <input type="tel" name="phone" class="form-input" placeholder="Phone number" pattern="[0-9]{7,15}" required data-form-input>
+      <input type="tel" name="whatsapp" class="form-input" placeholder="WhatsApp number" pattern="[0-9]{7,15}" required data-form-input>
+    </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+    <div class="input-wrapper">
+      <input type="text" name="address" class="form-input" placeholder="Your address" required data-form-input>
+      <select name="service" class="form-input" required data-form-input>
+        <option value="">Select a service</option>
+        <option value="Web Development">Web Development</option>
+        <option value="App Development">App Development</option>
+        <option value="SEO Services">SEO Services</option>
+      </select>
+    </div>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+    <div class="input-wrapper">
+      <select name="budget" class="form-input" required data-form-input>
+        <option value="">Select your budget</option>
+        <option value="Below $500">Below $500</option>
+        <option value="$500 - $1000">$500 - $1000</option>
+        <option value="Above $1000">Above $1000</option>
+      </select>
+    </div>
 
-          </form>
+    <textarea name="message" class="form-input" placeholder="Your message" required data-form-input></textarea>
 
-        </section>
+    <button class="form-btn" type="submit" data-form-btn>
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+
+</section>
+
 
       </article>
 
@@ -1178,5 +1203,6 @@ In the fast-paced digital world, having a strong online presence is crucial for 
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 
 </html>
